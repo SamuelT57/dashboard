@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import fetch from 'isomorphic-unfetch'
 
-const API_KEY = 'ef4a9d883eee4d2ba60cce0644ec93fa'
+const API_KEY = ''
 
 class News extends Component {
     state = {
