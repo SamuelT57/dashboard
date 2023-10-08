@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import fetch from 'isomorphic-unfetch'
 
-const API_KEY = "056a648b6917157f3f13dcd3a6b19a29"
+const API_KEY = ""
 
 class Weather extends Component {
     state = {
