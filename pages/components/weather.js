@@ -58,6 +58,34 @@ class Weather extends Component {
                 ) : (
                     <p>Loading...</p>
                 )}
+
+
+                <style jsx>{`
+                    div {
+                        font-family: Arial, sans-serif;
+                    }
+
+                    h2 {
+                        font-size: 32px;
+                    }
+
+                    .stat {
+                        margin-bottom: 20px;
+                    }
+
+                    .label {
+                        font-weight: bold;
+                    }
+
+                    .value {
+                        font-size: 18px;
+                    }
+
+                    p {
+                        
+                    }
+                `}</style>
+                
             </div>
         )
     }

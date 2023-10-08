@@ -41,7 +41,43 @@ class News extends Component {
                     </ul>
                 )}
                 <style jsx>{`
+                    div {
+                        font-family: Arial, sans-serif;
+                    }
 
+                    h2 {
+                        color: #333;
+                        font-size: 32px;
+                        margin: 20px;
+                    }
+
+                    ul {
+                        list-style: none;
+                        padding: 0;
+                    }
+
+                    li {
+                        margin: 20px;
+                        border: 1px solid #ccc;
+                        padding: 30px;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: #333;
+                        font-weight: bold;
+                    }
+
+                    img {
+                        float: right;
+                        max-width: 10%;
+                        height: auto;
+                        margin: auto;
+                    }
+
+                    p {
+                        color: #666;
+                    }
                 `}</style>
             </div>
         )
